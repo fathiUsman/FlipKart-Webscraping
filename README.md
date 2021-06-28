@@ -16,6 +16,8 @@ Why BeautifulSoup? It is an incredible tool for pulling out information from a w
 
 Scraping Flipkart Website:
 
+Source File : 'https://www.flipkart.com/search?q=macbook&sid=6bo%2Cb5g&as=on&as-show=on&otracker=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&otracker1=AS_QueryStore_OrganicAutoSuggest_1_3_na_na_na&as-pos=1&as-type=RECENT&suggestionId=macbook%7CLaptops&requestId=e63a82ea-ebdb-48f9-b9bd-cd02934a1654&as-searchtext=mac'
+
 from bs4 import BeautifulSoup import requests import csv import pandas as pd
 
 First, we import the BeautifulSoup and the requests library and these are very important libraries for web scraping.
